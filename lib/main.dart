@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'features/auth/login_screen.dart'; // Eita add korechi: Login screen ke app e niye ashar jonno
+import 'features/auth/login_screen.dart'; 
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // EIKHANE CHANGE HOYECHE: Purano Scaffold/Text kete amra LoginScreen bosiye diyechi
+      
       home: const LoginScreen(), 
     );
   }
